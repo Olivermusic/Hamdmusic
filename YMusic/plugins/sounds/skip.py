@@ -16,7 +16,7 @@ import time
 
 import config
 
-SKIP_COMMAND = ["تخطي","سكب"]
+SKIP_COMMAND = ["تخطي", "سكب"]
 
 @app.on_message(command(SKIP_COMMAND)
 )
